@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         return -1;
     } //Setup for command line usage
     
-    double hz = atof(argv[1]); //atof is C++ for convert string to double, accepting command line argument setting as
+    double hz = atof(argv[1]); //atof is C++ for convert string to double, accepting command line argument setting as frequency
     assert (hz > 0); //Make sure frequency is valid
     NSLog(@"generating tone %f hz tone", hz);
     
